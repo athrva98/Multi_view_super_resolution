@@ -18,4 +18,10 @@ Implemented using OpenCV and STL
 
 ### Implementation details.
 
-The build system is QMake. You need to have an installlation of OpenCV to build this project. If you are using UBUNTU, just use ```apt``` to install OpenCV. QMake should automatically find OpenCV using ```pkg-config```. If you are building OpenCV from source, make appropriate changes to the Qmake configuration in the ``.pro`` file.
+The build system is QMake. You need to have an installlation of OpenCV to build this project. If you are using UBUNTU, just use ```apt``` to install OpenCV. QMake should automatically find OpenCV using ```pkg-config```. If you are building OpenCV from source, make appropriate changes to the Qmake configuration in the ```.pro``` file.
+
+### References
+
+1. Based on the implementation in, ```https://github.com/zhangxiaoya/FB.git```
+2. Paper Reference : Farsiu, Sina et al. “Fast and robust multiframe super resolution.” IEEE Transactions on Image Processing 13 (2004): 1327-1344.
+
